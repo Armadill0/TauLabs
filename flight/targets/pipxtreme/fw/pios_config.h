@@ -61,6 +61,8 @@
 #define PIOS_INCLUDE_RFM22B
 #define PIOS_INCLUDE_PACKET_HANDLER
 
+#define PIOS_INCLUDE_TARANIS_SPORT
+ 
 #define PIOS_INCLUDE_FLASH
 #define PIOS_INCLUDE_FLASH_INTERNAL
 #define PIOS_INCLUDE_LOGFS_SETTINGS
@@ -102,6 +104,9 @@
 
 /* Turn on debugging signals on the telemetry port */
 //#define PIOS_RFM22B_DEBUG_ON_TELEM
+
+#define TAULINK_VERSION_STICK 0x01
+#define TAULINK_VERSION_MODULE 0x02
 
 #endif /* PIOS_CONFIG_H */
 /**

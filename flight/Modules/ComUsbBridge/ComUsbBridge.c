@@ -205,6 +205,7 @@ static void updateSettings()
 			PIOS_COM_ChangeBaud(usart_port, 115200);
 			break;
 		}
+
 	}
 }
 
